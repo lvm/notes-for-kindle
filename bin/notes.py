@@ -151,4 +151,5 @@ if __name__ == '__main__':
         main()
     except KeyboardInterrupt:
         print "Exiting due to user interrupt."
+        import sys
         sys.exit(1)
